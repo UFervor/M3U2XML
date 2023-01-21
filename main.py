@@ -6,6 +6,7 @@ from fastapi.responses import PlainTextResponse, HTMLResponse
 from urllib.parse import unquote
 import nest_asyncio
 nest_asyncio.apply()
+#pip3 uninstall uvloop
 
 
 app = FastAPI()
